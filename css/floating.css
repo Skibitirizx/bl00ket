@@ -1,12 +1,3 @@
-.floating-blooks {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
 .floating-blook {
     position: absolute;
     animation: float 20s infinite ease-in-out;
