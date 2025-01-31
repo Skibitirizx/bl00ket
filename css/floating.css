@@ -1,0 +1,56 @@
+.floating-blooks {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.floating-blook {
+    position: absolute;
+    animation: float 20s infinite ease-in-out;
+}
+
+.floating-blook:nth-child(1) {
+    animation-duration: 18s;
+    animation-delay: -2s;
+}
+
+.floating-blook:nth-child(2) {
+    animation-duration: 22s;
+    animation-delay: -5s;
+}
+
+.floating-blook:nth-child(3) {
+    animation-duration: 19s;
+    animation-delay: -4s;
+}
+
+.floating-blook:nth-child(4) {
+    animation-duration: 21s;
+    animation-delay: -3s;
+}
+
+@keyframes float {
+    0% {
+        transform: translate(0, 0) scale(0.6);
+        opacity: 0.7;
+    }
+    25% {
+        transform: translate(-150px, -200px) scale(0.7);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translate(200px, 100px) scale(0.8);
+        opacity: 0.6;
+    }
+    75% {
+        transform: translate(-100px, -150px) scale(1.1);
+        opacity: 0.9;
+    }
+    100% {
+        transform: translate(100px, 200px) scale(1);
+        opacity: 0.7;
+    }
+}
