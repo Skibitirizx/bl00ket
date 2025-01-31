@@ -3,33 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blooket Replica</title>
+    <title>Blooket</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/floating.css">
-    <link rel="stylesheet" href="css/game.css">
 </head>
 <body>
     <div class="container">
+        <!-- Header Section -->
         <div class="header">
             <div class="logo">
                 <img src="https://yt3.googleusercontent.com/AJC1qTU4OAwkd2EmA9HW0FPtnaVoie2zocmpSHXrbNZ_Loeh5gzbOjekkOJ9aBpEGDgm9K3KpQ=s160-c-k-c0x00ffffff-no-rj" alt="Blooket Logo">
             </div>
-            <div class="header-title">
-                <h1>Blooket</h1>
-            </div>
         </div>
         
-        <div class="buttons-container">
-            <button class="button play-button" id="playButton">Play</button>
-            <button class="button create-room" id="createRoomButton">Create Room</button>
-            <button class="button join-room" id="joinRoomButton">Join Room</button>
+        <!-- Main Content Section -->
+        <div class="play-container">
+            <button class="play-button">Play</button>
         </div>
         
-        <div class="game-status" id="gameStatus">
-            <p>Game Status: Not Started</p>
-        </div>
-        
+        <!-- Floating Blooks -->
         <div class="floating-blooks">
             <div class="floating-blook" style="bottom: 100vh; left: 12.2vw; animation-duration: 19887ms; animation-delay: -5000ms; opacity: 0.343265;">
                 <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook">
@@ -45,6 +38,7 @@
             </div>
         </div>
     </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
