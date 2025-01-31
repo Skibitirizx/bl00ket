@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body class="__className_6db340">
+    <!-- Purple Header Banner (like in Blooket) -->
+    <div class="purple-banner">
+        <span class="purple-text">Welcome to Blooket</span>
+    </div>
+
     <!-- Header with Custom Logo and Game Name -->
     <header>
         <div class="logo-container">
@@ -24,6 +29,22 @@
                 <div class="_checkers_l90pt_12"></div>
             </div>
 
+            <!-- Game Code Section -->
+            <section class="game-play">
+                <div class="game-code-container">
+                    <h2>Enter Game Code</h2>
+                    <input type="text" id="game-code-input" placeholder="Enter code: ela" class="game-code-input">
+                    <button class="join-game-btn">Join Game</button>
+                    <div id="error-message" class="error-message" style="display: none;">
+                        <p>Invalid Game ID. Please try again.</p>
+                    </div>
+                    <div class="buttons">
+                        <button class="create-game-btn">Create a Game</button>
+                        <button class="login-btn">Log In</button>
+                    </div>
+                </div>
+            </section>
+
             <!-- Floating Blooks -->
             <div class="FloatingBlooks_container__30tmg">
                 <div class="floating-blook" style="bottom: 100vh; left: 12.2vw;">
@@ -35,85 +56,8 @@
                 <div class="floating-blook" style="bottom: 110vh; left: 66.5vw;">
                     <img src="https://ac.blooket.com/marketassets/blooks/chick.svg" alt="Chick Blook" class="blook-img">
                 </div>
-                <div class="floating-blook" style="bottom: 115vh; left: 32.9vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/horse.svg" alt="Horse Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 120vh; left: 55.8vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/lilbot.svg" alt="Lil Bot Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 125vh; left: 62.2vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/cow.svg" alt="Cow Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 130vh; left: 14.9vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/chick.svg" alt="Chick Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 135vh; left: 35.8vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/lilbot.svg" alt="Lil Bot Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 140vh; left: 87.7vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 145vh; left: 8.5vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/parrot.svg" alt="Parrot Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 150vh; left: 43.1vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/puppy.svg" alt="Puppy Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 155vh; left: 64.6vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/rabbit.svg" alt="Rabbit Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 160vh; left: 12.9vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 165vh; left: 39.9vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 170vh; left: 85.6vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/puppy.svg" alt="Puppy Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 175vh; left: 29.2vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 180vh; left: 47vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/lilbot.svg" alt="Lil Bot Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 185vh; left: 74.8vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/horse.svg" alt="Horse Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 190vh; left: 31.7vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 195vh; left: 57.4vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/puppy.svg" alt="Puppy Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 200vh; left: 65.1vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/rabbit.svg" alt="Rabbit Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 205vh; left: 25.1vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/chicken.svg" alt="Chicken Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 210vh; left: 52.7vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/dragon.svg" alt="Dragon Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 215vh; left: 65.5vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/cow.svg" alt="Cow Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 220vh; left: 20.3vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/chick.svg" alt="Chick Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 225vh; left: 42.2vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/chick.svg" alt="Chick Blook" class="blook-img">
-                </div>
-                <div class="floating-blook" style="bottom: 230vh; left: 73.7vw;">
-                    <img src="https://ac.blooket.com/marketassets/blooks/puppy.svg" alt="Puppy Blook" class="blook-img">
-                </div>
+                <!-- Additional floating Blooks images can be added here -->
             </div>
-
-            <!-- Game Code Input Section -->
-            <section class="game-play">
-                <input type="text" id="game-code-input" placeholder="Enter code: ela" class="game-code-input">
-                <button class="join-game-btn">Join Game</button>
-            </section>
         </div>
     </main>
 
